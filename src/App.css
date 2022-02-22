@@ -1,3 +1,44 @@
-.App {
+body {
+  background-image: url(../src/images/background.png);
+  color: white;
+}
+
+.Header {
   text-align: center;
+}
+
+.System {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.System h2 {
+  margin-left: 37%;
+  margin-right: 50%;
+  text-align: center;
+  border: 1px groove white;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.Planet {
+  padding-left: 1.7%;
+}
+
+.Title {
+  text-align: center;
+  border: 1px groove white;
+}
+
+.MissionCard {
+  border: 1px groove white;
+  display: inline-block;
+  width: 10%;
+  padding: 5%;
+  margin: 2%;
+}
+
+.MissionCardName {
+  border: 1px groove white;
+  padding: 2%;
 }
